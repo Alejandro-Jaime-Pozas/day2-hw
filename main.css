@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+
+}
+
+.sign-in-box {
+    display: ;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+}

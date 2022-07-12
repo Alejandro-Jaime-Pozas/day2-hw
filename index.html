@@ -12,25 +12,34 @@
 <body>
     <img src="https://via.placeholder.com/103x31.jpeg?" alt="" class="logo">
     <div class="sign-in-box">
-        <h1>Sign In</h1>
-        <p>Email (phone or mobile accounts)</p>
-        <p>[Enter email here in email box] </p>
-        <p>Password</p>
-        <p>Forgot Password</p>
-        <p>[Enter password here in password box]</p>
-        <p>Continue button (click)</p>
-        <li>Need Help?</li>
+        
+        <form action="https://www.amazon.com/" method="post">
+            <h1>Sign In</h1>
+            <br>
+            <label for="email">Email (phone or mobile accounts)</label>
+            <input type="email" placeholder="Enter Email">
+            <br>
+            <label id="Password" class="pwd" for="pwd">Password</label>
+            <a id="Forgot" class="pwd" href="/forgotpwd.html">Forgot Password</a>
+            <input type="password" minlength="8" placeholder="Enter Password">
+            <br>
+            <input id="continue" type="submit" value="Continue">
+            <li><a href="/help.html"> Need Help?</a></li>
+        </form>
     </div>
-    <p>New To Amazon?</p>
-    <p>Create Your Amazon Account button (click)</p>
-    <br>
-    ---------------------horizontal line
-    <br><br><br>
+    <div class="below-form"> 
+        <p>---------------------New To Amazon?-----------------------</p> 
+        <br>
+        <input id="bottom-item" type="button" value="Create Your Amazon Account" onclick="window.location.href='https://www.amazon.com'">
+    </div>
     <footer>
-        Conditions of use
-        Privacy Policy
-        Help
-        <p>&copy 1996-2020, Amazon.com,ine or its affiliates</p> 
+        <hr>
+        <ul>
+            <li><a href="/help.html"> Conditions of use</a></li>
+            <li><a href="/help.html"> Privacy Policy</a></li>
+            <li><a href="/help.html"> Help</a></li>
+        </ul> 
+        <p id="copy">&copy 1996-2020, Amazon.com,ine or its affiliates</p>
     </footer>
     
 </body>

@@ -1,8 +1,9 @@
+
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid black;
 
 }
 
@@ -11,4 +12,68 @@ body {
     justify-content: center;
     border: 1px solid lightgrey;
     border-radius: 1%;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+#bottom-item {
+    margin-bottom: 50px;
+    width: 350px;
+}
+
+form {
+    margin: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: ;
+    width: 350px;
+    height: 300px;
+}
+
+#copy {
+    text-align: center;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+}
+
+#continue {
+    background-color: rgb(255, 191, 0);
+
+}
+
+input {
+    height: 30px;
+}
+
+li {
+    margin: 20px;
+}
+
+.pwd {
+    display: inline;
+}
+
+.below-form {
+    margin: 20px;
+    
+}
+
+ul li {
+    display: inline;
+    text-align: center;
+    padding-left: 20px;
+}
+
+hr {
+    width: 500px;
+}
+
+form li {
+    color:blue;
 }

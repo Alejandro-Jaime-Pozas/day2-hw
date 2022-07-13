@@ -71,9 +71,21 @@ ul li {
 }
 
 hr {
-    width: 500px;
+    width: 500px;   
 }
 
 form li {
     color:blue;
+}
+
+.inline-text {
+    display: flex;
+    justify-content:space-between;
+}
+
+footer {
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+
 }
